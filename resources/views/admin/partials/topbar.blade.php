@@ -198,7 +198,7 @@
                         </a>
                     </li>
                     <li>
-                        <a href="" class="d-b td-n pY-5 bgcH-grey-100 c-grey-700">
+                        <a href="{{ url(route(ADMIN . '.users.edit', Auth::user()->id)) }}" class="d-b td-n pY-5 bgcH-grey-100 c-grey-700">
                             <i class="ti-user mR-10"></i>
                             <span>Profile</span>
                         </a>
